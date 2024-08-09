@@ -1,0 +1,65 @@
+.header-space {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  float: left;
+  flex-wrap: wrap;
+  color: teal;
+  height: 100%;
+}
+
+img {
+  border-radius: 5rem;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+.brands li {
+  background-color: white;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.nav-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.nav-icons li {
+  padding-bottom: 3rem;
+}
+
+.nav-links li {
+  padding-bottom: 2.6rem;
+}
+
+#profile-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  border-radius: 5rem;
+  height: 8rem;
+  width: 8rem;
+}
+
+h3 {
+  padding-bottom: 2rem;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+button {
+  border: 0.1rem solid whitesmoke;
+}
